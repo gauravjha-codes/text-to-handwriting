@@ -8,7 +8,7 @@ Text to handriting app converts the user input of simple text to the user prefer
 ## Requirements
 1. python version : 3.0.1 or above
 
-## how to run
+## How to run
 
 ### 1. Clone the github repository using:
 
