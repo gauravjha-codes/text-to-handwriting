@@ -18,19 +18,19 @@ FONT_PATHS = {
     "handwriting5": "static/handwriting5.ttf",
     "handwriting6": "static/handwriting6.ttf",
     "handwriting7": "static/handwriting7.ttf",
-    "handwriting8": "static/handwriting7.ttf",  # Fallback: using handwriting7.ttf since handwriting8.ttf is missing
-    "handwriting9": "static/handwriting7.ttf",  # Fallback: using handwriting7.ttf since handwriting9.ttf is missing
-    "handwriting10": "static/handwriting7.ttf",  # Fallback: using handwriting7.ttf since handwriting10.ttf is missing
+    "handwriting8": "static/handwriting7.ttf",  
+    "handwriting9": "static/handwriting7.ttf",  
+    "handwriting10": "static/handwriting7.ttf",  
 }
-DEFAULT_FONT = "Arial"  # Fallback font if the specified font fails to load
+DEFAULT_FONT = "Arial" 
 PAGE_WIDTH = 800
 PAGE_HEIGHT = 1200
 MARGIN_TOP = 50
 MARGIN_LEFT = 50
 LINE_SPACING_MULTIPLIER = 1.5
 PARAGRAPH_SPACING_MULTIPLIER = 2.5
-FONT_SIZE_SCALE_FACTOR = 2.0  # Scale down the font size to make text smaller in the image
-PDF_DPI_SCALE_FACTOR = 72 / 96  # Adjust font size for PDF to match image at 96 DPI
+FONT_SIZE_SCALE_FACTOR = 2.0  
+PDF_DPI_SCALE_FACTOR = 72 / 96  
 
 # Register handwriting fonts with reportlab
 for font_name, font_path in FONT_PATHS.items():
